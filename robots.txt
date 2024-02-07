@@ -1,0 +1,8 @@
+User-agent: *
+Host: https://errorsdetailing.ru
+Disallow: /admin
+Disallow: /header
+Disallow: /footer
+Disallow: /*.css
+Disallow: /*.js
+Sitemap: https://errorsdetailng.ru/sitemap.xml

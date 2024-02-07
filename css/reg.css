@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: url("../img/back1.png");
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.registration-container{
+    width: 30em;
+    height: 40em;
+    border: 5px solid #C5B27D;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    text-align: center;
+}
+.reg-title{
+    color:  #C5B27D;
+    text-align: center;
+}
+.reg-form{
+    padding-top: 8em;
+    text-align: center;
+}
+.form-type{
+    border: 2px solid #C5B27D;
+    background: none;
+    width: 15em;
+    height: 2em;
+    color: #C5B27D;
+}
+.form-type::-webkit-input-placeholder {
+    color: #C5B27D;
+    font-weight: 800;
+   } 
+   input[type="search"]::-moz-placeholder {
+    color:  #C5B27D;
+    font-weight: 800;
+   }
+
+   .form-type-next{
+       margin-top: 1em;
+   }
+   .reg-button{
+       margin-top: 2em;
+       background: none;
+       border: 2px solid #C5B27D;
+       color: #C5B27D;
+   }
+   .login{
+    color: #fff;
+   }
+   .underline{
+    color: #C5B27D;
+    text-decoration: underline;
+   }
+
+   @media (min-width:350px) and (max-width:390px){
+    .header{
+        background-image: none;
+        background-color: black;
+    }
+    .registration-container{
+        width: 20em;
+        height: 30em;
+        top: 35%;
+        left: 10%;
+    }
+
+   }
