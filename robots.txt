@@ -1,8 +1,8 @@
 User-agent: *
-Host: https://errorsdetailing.ru
+Host: https://errorsdetailing.netlify.app
 Disallow: /admin
 Disallow: /header
 Disallow: /footer
 Disallow: /*.css
 Disallow: /*.js
-Sitemap: https://errorsdetailng.ru/sitemap.xml
+Sitemap: https://errorsdetailing.netlify.app/sitemap.xml
